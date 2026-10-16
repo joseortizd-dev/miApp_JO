@@ -1,14 +1,14 @@
-# Mi primera app en React - Cambio de estilo
+# Mi primera app en React - Modo Estudio / Modo Descanso
 
-Esta es una pequeña aplicación web desarrollada con React. El objetivo principal de mi primera aplicación es demostrar el aprendizaje y uso correcto de componentes, el manejo del estado mediante 'useState' y la aplicación de estilos condicionales (Modo Claro/ Modo Oscuro)
+Esta es una pequeña aplicación web desarrollada con React. El objetivo principal de mi primera aplicación es demostrar el aprendizaje y uso correcto de componentes, el manejo del estado mediante el hook 'useState' y la aplicación de estilos condicionales.
 
-El proyecto consta de una tarjeta de presentación que contiene texto, una imagen y un botón interactivo.
+El proyecto consta de tarjetas de presentación que contiene texto, imagen y botón interactivo. Estos van variando al presionar el botón Modo Estudio / Modo Descanso mostrando sus diferencias. 
 
 ## Herramientas utilizadas.
-**React (con Vite)**: Para la creación rápida del entorno y los componentes.
-**HTML Semántico**: uso de etiquetas como '<main>', <article>' y '<figure>'.
-**CSS3**: Para la estilización personalizada y las transiciones suaves entre temas.
-**JavaScript**: Implementación del Hook 'useState' y operadores ternarios para la lógica.
+**React (con Vite)**: Para la creación del entorno y los componentes.
+**HTML Semántico**: Uso de etiquetas como '<main>','<article>','<figure>'y '<h2>'.
+**CSS3**: Para un estilo personalizado y incorporando sombreados('box-shadow') y transiciones de tamaño ('transform: scale') para que el cambio de estado se note fluido.
+**JavaScript**: Implementación del Hook 'useState' y multiples operadores ternarios para la lógica dinámica.
 
 ## Instalación y ejecución.
 Para poder correr este proyecto en un entorno local se deben seguir los siguientes pasos: 
