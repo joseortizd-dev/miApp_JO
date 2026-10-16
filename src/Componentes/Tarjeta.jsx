@@ -14,8 +14,10 @@ function Tarjeta() {
     : "https://static.vecteezy.com/system/resources/previews/006/430/508/non_2x/game-console-with-website-coding-flat-icon-of-game-development-vector.jpg";
     
     const tituloActual = modoEstudio ? "Modo Estudio" : "Modo Descanso";
-    const textoActual = modoEstudio ? "En este momento me encuentro aplicando lo aprendido en clases de Programación Front End." 
-    : "Es hora de tomar un pequeño descanso, ha sido mucho código por ahora.";
+    const textoActual = modoEstudio
+        ? `En este momento me encuentro aplicando lo aprendido en clases de Programación Front End.
+¡Silencio! Necesito máxima concentración.`
+        : "Es hora de tomar un pequeño descanso, ha sido mucho código por ahora.";
 
     return (
         <article className={`contenedor-tarjeta ${claseModo}`}>
