@@ -17,7 +17,8 @@ function Tarjeta() {
     const textoActual = modoEstudio
         ? `En este momento me encuentro aplicando lo aprendido en clases de Programación Front End.
 ¡Silencio! Necesito máxima concentración.`
-        : "Es hora de tomar un pequeño descanso, ha sido mucho código por ahora.";
+        : `Es hora de tomar un pequeño descanso.
+    ¡Ha sido mucho código por ahora!.`;
 
     return (
         <article className={`contenedor-tarjeta ${claseModo}`}>
