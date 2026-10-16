@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <main className="aplicacion-principal">
-      <h1>Bienvenido a mi aplicación</h1>
+      <h1>Bienvenido a mi primera aplicación</h1>
       <Tarjeta />
     </main>
   );
